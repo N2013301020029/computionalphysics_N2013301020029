@@ -10,10 +10,12 @@ blablabla
 1. blablabla
 2. blablabla
 3. blablabla
-### methods of researching
+
+### Methods of researching
 * some method
 * some method
 * some method
+
 ## other suggestions
 * to read more detailed information about [computational physics](http://baike.baidu.com/subview/1266211/18687975.htm)
 * you can buy excellent book in [here](https://detail.tmall.com/item.htm?id=17316093437&ali_trackid=2:mm_13388020_3320351_10794922:1456641288_261_17712733&spm=a231o.7712113.1004.85.tujmxD&pvid=200_10.103.34.54_13152_1456641005037)
