@@ -13,7 +13,7 @@ We can see the lady's eyes and mouth are actually upside down,but only when we t
 When we see a face upsidedown our ability to recognize the organs is not so good.
 Even if I put two pictures together,still you can't tell which picture is the original one.
 
-![together adele](http://7xrn0b.com1.z0.glb.clouddn.com/9678c5bddbcd10e2f593492e4e39d241.jpg)
+![together adele](http://7xrn0b.com1.z0.glb.clouddn.com/a0ba402d58e5c15b55e2cfa31d13bb94.jpg)
 ## The effect of Upsidedown
 In 1969,Robert found that if we set things upsidedown,our ability to analyse them decline.
 And espeially faces,this is called "the effect of upsidedown face"
@@ -26,4 +26,4 @@ Just like the first group of pictures,wo can easily tell that it's Adele in the 
 ![ex2](http://7xrn0b.com1.z0.glb.clouddn.com/4f89c52238b685dc7ec410a06de8cf5b.jpg)
 ![wxi](http://7xrn0b.com1.z0.glb.clouddn.com/b234d565e5222937b9c7119ab4a7bf66.jpg)
 
-### See the original and more detailed contant in [Adele:hello it's me](http://xue.youdao.com/sw/m/1051444 )
+### See the original and more detailed content in [Adele:hello it's me](http://xue.youdao.com/sw/m/1051444 )
