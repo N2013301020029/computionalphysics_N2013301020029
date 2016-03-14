@@ -1,29 +1,101 @@
-# Don't Look at These Pictures Upsidedown
-## The first picture
-![Adele](http://7xrn0b.com1.z0.glb.clouddn.com/912dd7a03d6ed4d6f54e4a98c2d76250.jpg)
+# The 3rd exercise
+## Summury:
+   In the following program edicted in python language,I try to type some letters in form of #.
+   And it could also print letters in the opposite order that I input them.
+   Finally,the program will automaticly line feed when the letters are too long for the screen.
+## The program is edicted as following:
+            import sys
+            
+            weightChar = 11
+            heightChar = 5
+            
+            weightBoard = 50
+            heightBoard = 6
+            
+            graphs = [["     #     ", \
+                       "    # #    ", \
+                       "   #####   ", \
+                       "  #     #  ", \
+                       " #       # "], \
+                      ["  ######   ", \
+                       "  #     #  ", \
+                       "  ######   ", \
+                       "  #     #  ", \
+                       "  ######   "], \
+                      ["   #####   ", \
+                       "  #        ", \
+                       " #         ", \
+                       "  #        ", \
+                       "   #####   "], \
+                      ["   ####    ", \
+                       "   #   #   ", \
+                       "   #    #  ", \
+                       "   #   #   ", \
+                       "   ####    "]]
+            
+            
+            def drawAt(graphBoard, graph, index):
+                for i in range(heightChar):
+                    for j in range(weightChar):
+                        graphBoard[i][index + j] = graph[i][j];
+            
+            def printBoard(graphBoard):
+                for i in range(heightBoard):
+                    for j in range(weightBoard+1):
+                        sys.stdout.write(graphBoard[i][j])
+            
+            def initBoard(graphBoard):
+                for i in range(heightBoard):
+                    graphBoard.append([]);
+                    for j in range(weightBoard):
+                        graphBoard[i].append('\0')
+                    graphBoard[i].append('\n')
+            
+            def cleanBoard(graphBoard):
+                for i in range(heightBoard):
+                    for j in range(weightBoard):
+                        graphBoard[i][j] = '\0'
+            
+            graphBoard = []
+            initBoard(graphBoard)
+            
+            command = raw_input("\nenter the string: (ex. abcd)\n")
+            length = len(command)
+            index = 1
+            for i in range(length):
+                ch = command[length-1-i]
+                drawAt(graphBoard, graphs[ord(ch) - ord('a')], index)
+                index += weightChar + 1
+                if i % 4 == 3:
+                    printBoard(graphBoard)
+                    cleanBoard(graphBoard)
+                    index = 1
+            if i % 4 != 3:
+                printBoard(graphBoard)
 
-Do you recognize who this beautiful lady is?
-Yes,it's Adele.
-If you didn't see the funny poit of the picture,let's the same picture upsidedown
 
-![Adele upside down](http://7xrn0b.com1.z0.glb.clouddn.com/e2f759ead97c28bf5488bef93ea000af.jpg)
+## The outcome of the program:
+Let's run the program on python and see what would happen.
+First,we input an 'a'
 
-We can see the lady's eyes and mouth are actually upside down,but only when we turn the picture around can notice that.
-### Explanation
-When we see a face upsidedown our ability to recognize the organs is not so good.
-Even if I put two pictures together,still you can't tell which picture is the original one.
 
-![together adele](http://7xrn0b.com1.z0.glb.clouddn.com/a0ba402d58e5c15b55e2cfa31d13bb94.jpg)
-## The effect of Upsidedown
-In 1969,Robert found that if we set things upsidedown,our ability to analyse them decline.
-And espeially faces,this is called "the effect of upsidedown face"
+![1](http://7xrn0b.com1.z0.glb.clouddn.com/860c3d8318b9d867a58e3c8c39db5ab1)
 
-![ex1](http://7xrn0b.com1.z0.glb.clouddn.com/5f024d3c8c2f15143f1a99d96ef09b8c.jpg)
-![ex2](http://7xrn0b.com1.z0.glb.clouddn.com/9678c5bddbcd10e2f593492e4e39d241.jpg)
+Turned out it print an a in form of #.
+Next we input 'abc'
 
-Just like the first group of pictures,wo can easily tell that it's Adele in the picture,but we didn't notice her eyes and mouth are totally upsidedown.This means when we met a picture,we have the ability to analyse the whole picture quickly first,but we are not so good at analyse every part or details of the picture.
+![2](http://7xrn0b.com1.z0.glb.clouddn.com/79c74070988f9933efeccd7e4e0ee30a)
 
-![ex2](http://7xrn0b.com1.z0.glb.clouddn.com/4f89c52238b685dc7ec410a06de8cf5b.jpg)
-![wxi](http://7xrn0b.com1.z0.glb.clouddn.com/b234d565e5222937b9c7119ab4a7bf66.jpg)
+Turned out it print abc in opposite order cba.
 
-### See the original and more detailed content in [Adele:hello it's me](http://xue.youdao.com/sw/m/1051444 )
+And we input enough letters to full the line of the screen,so we input aabbcca
+
+![3](http://7xrn0b.com1.z0.glb.clouddn.com/aa11c2368d25bbb49938611f1af2a70e)
+
+We can see the automatic line feed worked.
+## Conclusion:
+We have accomplish fashback outputting and automatic line feeding using the python program above.
+## Acknowledgment:
+The program above is edicted by Yizhe Dong of Shanghai Jiaotong University.
+And I don't understand it in some way.
+Thank him for his working.
