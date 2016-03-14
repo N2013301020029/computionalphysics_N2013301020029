@@ -4,15 +4,14 @@
    And it could also print letters in the opposite order that I input them.
    Finally,the program will automaticly line feed when the letters are too long for the screen.
 ## The program is edicted as following:
-   
-import sys
+   import sys
 
 weightChar = 11
 heightChar = 5
 
 weightBoard = 50
 heightBoard = 6
-   
+
 graphs = [["     #     ", \
            "    # #    ", \
            "   #####   ", \
@@ -73,6 +72,11 @@ for i in range(length):
         index = 1
 if i % 4 != 3:
     printBoard(graphBoard)
+
+
+   
+   
+   
 
 ## The outcome of the program:
 Let's run the program on python and see what would happen.
