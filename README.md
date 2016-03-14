@@ -98,3 +98,4 @@ We have accomplish fashback outputting and automatic line feeding using the pyth
 ## Acknowledgment:
 The program above is edicted by Yizhe Dong of Shanghai Jiaotong University.
 And I don't understand it in some way.
+Thank him for his working.
