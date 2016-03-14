@@ -4,82 +4,75 @@
    And it could also print letters in the opposite order that I input them.
    Finally,the program will automaticly line feed when the letters are too long for the screen.
 ## The program is edicted as following:
-   import sys
-   
-   weightChar = 11
-   heightChar = 5
-   
-   weightBoard = 50
-   heightBoard = 6
-   
-   graphs = [["     #     ", \
-              "    # #    ", \
-              "   #####   ", \
-              "  #     #  ", \
-              " #       # "], \
-             ["  ######   ", \
-              "  #     #  ", \
-              "  ######   ", \
-              "  #     #  ", \
-              "  ######   "], \
-             ["   #####   ", \
-              "  #        ", \
-              " #         ", \
-              "  #        ", \
-              "   #####   "], \
-             ["   ####    ", \
-              "   #   #   ", \
-              "   #    #  ", \
-              "   #   #   ", \
-              "   ####    "]]
-   
-   
-   def drawAt(graphBoard, graph, index):
-       for i in range(heightChar):
-           for j in range(weightChar):
-               graphBoard[i][index + j] = graph[i][j];
-   
-   def printBoard(graphBoard):
-       for i in range(heightBoard):
-           for j in range(weightBoard+1):
-               sys.stdout.write(graphBoard[i][j])
-   
-   def initBoard(graphBoard):
-       for i in range(heightBoard):
-           graphBoard.append([]);
-           for j in range(weightBoard):
-               graphBoard[i].append('\0')
-           graphBoard[i].append('\n')
-   
-   def cleanBoard(graphBoard):
-       for i in range(heightBoard):
-           for j in range(weightBoard):
-               graphBoard[i][j] = '\0'
-   
-   graphBoard = []
-   initBoard(graphBoard)
-   
-   command = raw_input("\nenter the string: (ex. abcd)\n")
-   length = len(command)
-   index = 1
-   for i in range(length):
-       ch = command[length-1-i]
-       drawAt(graphBoard, graphs[ord(ch) - ord('a')], index)
-       index += weightChar + 1
-       if i % 4 == 3:
-           printBoard(graphBoard)
-           cleanBoard(graphBoard)
-           index = 1
-   if i % 4 != 3:
-       printBoard(graphBoard)
-   
-   
-   
+            import sys
+            
+            weightChar = 11
+            heightChar = 5
+            
+            weightBoard = 50
+            heightBoard = 6
+            
+            graphs = [["     #     ", \
+                       "    # #    ", \
+                       "   #####   ", \
+                       "  #     #  ", \
+                       " #       # "], \
+                      ["  ######   ", \
+                       "  #     #  ", \
+                       "  ######   ", \
+                       "  #     #  ", \
+                       "  ######   "], \
+                      ["   #####   ", \
+                       "  #        ", \
+                       " #         ", \
+                       "  #        ", \
+                       "   #####   "], \
+                      ["   ####    ", \
+                       "   #   #   ", \
+                       "   #    #  ", \
+                       "   #   #   ", \
+                       "   ####    "]]
+            
+            
+            def drawAt(graphBoard, graph, index):
+                for i in range(heightChar):
+                    for j in range(weightChar):
+                        graphBoard[i][index + j] = graph[i][j];
+            
+            def printBoard(graphBoard):
+                for i in range(heightBoard):
+                    for j in range(weightBoard+1):
+                        sys.stdout.write(graphBoard[i][j])
+            
+            def initBoard(graphBoard):
+                for i in range(heightBoard):
+                    graphBoard.append([]);
+                    for j in range(weightBoard):
+                        graphBoard[i].append('\0')
+                    graphBoard[i].append('\n')
+            
+            def cleanBoard(graphBoard):
+                for i in range(heightBoard):
+                    for j in range(weightBoard):
+                        graphBoard[i][j] = '\0'
+            
+            graphBoard = []
+            initBoard(graphBoard)
+            
+            command = raw_input("\nenter the string: (ex. abcd)\n")
+            length = len(command)
+            index = 1
+            for i in range(length):
+                ch = command[length-1-i]
+                drawAt(graphBoard, graphs[ord(ch) - ord('a')], index)
+                index += weightChar + 1
+                if i % 4 == 3:
+                    printBoard(graphBoard)
+                    cleanBoard(graphBoard)
+                    index = 1
+            if i % 4 != 3:
+                printBoard(graphBoard)
 
-
-   
-   
-   
 
 ## The outcome of the program:
 Let's run the program on python and see what would happen.
