@@ -11,7 +11,8 @@
   We will use Euler method to deal with this radioactive problem:
   this method is very simple which told us that f(t+∆t)=f(t)+(f(t))/dt ∆t
   According to the differencial equation given we can use Euler method to approximate Na and Nb little 
-  by little.so we write the following program:
+  by little.
+### We write the following program:
   
         import numpy as np
         import matplotlib.pyplot as plt
@@ -52,3 +53,22 @@
         plt.legend()
         plt.show()
         ~               
+### Run the program:
+  We assume that tb=1s and it would remain 1s so that we need to only change the value of ta to change
+  the ratio of ta and tb.
+#### ta=0.2 dt=0.002,the picture is 
+![1](http://7xrn0b.com1.z0.glb.clouddn.com/dt0.002.png)
+we can see the Na curves are wellcoinsided but the Nb curves are not so well,and also after t=5s both 
+two groups of curves are well coinsided. At this condition,the ratio of ta and tb is 5.
+#### We change ta to 0.1:
+![2](http://7xrn0b.com1.z0.glb.clouddn.com/tao.1.png)
+We can see the  Na curves are wellcoinsided but the Nb curves are more separated in the first 5s.
+At this condition ,the ratio of ta and tb is 10.
+#### We change ta to 0.05
+![3](http://7xrn0b.com1.z0.glb.clouddn.com/ta0.05.png)
+We  see the change in the separation of the two Na curves:it's fhurther. so we can say there's some connection.
+But the obviouse thing is Na is much more larger than Nb.
+At this condition ,the ratio of ta and tb is 20.
+#### We change ta to 0.4:
+![4]()
+
