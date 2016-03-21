@@ -52,23 +52,19 @@
         plt.ylim(0,10000)
         plt.legend()
         plt.show()
-        ~               
+  THERE is an attention we need to notice that when Ta comes to 1s,the Nb formula is no longer 
+  right,and it should be Nb=10000(1+x)exp(-x).
 ### Run the program:
   We assume that tb=1s and it would remain 1s so that we need to only change the value of ta to change
   the ratio of ta and tb.
-#### ta=0.2 dt=0.002,the picture is 
-![1](http://7xrn0b.com1.z0.glb.clouddn.com/dt0.002.png)
-we can see the Na curves are wellcoinsided but the Nb curves are not so well,and also after t=5s both 
-two groups of curves are well coinsided. At this condition,the ratio of ta and tb is 5.
-#### We change ta to 0.1:
-![2](http://7xrn0b.com1.z0.glb.clouddn.com/tao.1.png)
-We can see the  Na curves are wellcoinsided but the Nb curves are more separated in the first 5s.
-At this condition ,the ratio of ta and tb is 10.
-#### We change ta to 0.05
-![3](http://7xrn0b.com1.z0.glb.clouddn.com/ta0.05.png)
-We  see the change in the separation of the two Na curves:it's fhurther. so we can say there's some connection.
-But the obviouse thing is Na is much more larger than Nb.
-At this condition ,the ratio of ta and tb is 20.
-#### We change ta to 0.4:
-![4]()
+#### We take a serie of values of Ta and see how the pictures change:
+    we take Ta=10s,5s,1.2s,1.0s,1.2s,1.5s,3.0s separately,and the pictures are:
+    ![1](http://7xrn0b.com1.z0.glb.clouddn.com/t10.png)
+    ![1](http://7xrn0b.com1.z0.glb.clouddn.com/t5.png)
+    ![1](http://7xrn0b.com1.z0.glb.clouddn.com/t25.png)
+    ![1](http://7xrn0b.com1.z0.glb.clouddn.com/t125.png)
+    ![1](http://7xrn0b.com1.z0.glb.clouddn.com/t1.png)
+    ![1](http://7xrn0b.com1.z0.glb.clouddn.com/t56.png)
+    ![1](http://7xrn0b.com1.z0.glb.clouddn.com/t23.png)
+    ![1](http://7xrn0b.com1.z0.glb.clouddn.com/t13.png)
 
