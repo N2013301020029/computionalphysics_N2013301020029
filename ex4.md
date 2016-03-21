@@ -64,6 +64,8 @@
 ![2](http://7xrn0b.com1.z0.glb.clouddn.com/t5.png)
     
 ![3](http://7xrn0b.com1.z0.glb.clouddn.com/t25.png)
+
+![p](http://7xrn0b.com1.z0.glb.clouddn.com/t2.png)
     
 ![4](http://7xrn0b.com1.z0.glb.clouddn.com/t125.png)
     
@@ -76,4 +78,10 @@
 ![9](http://7xrn0b.com1.z0.glb.clouddn.com/t13.png)
 
 ### Analyzing the pictures:
- 1.
+ 1.From the pictures the curves pictured by Euler method is very well coinsided with the accurate sollution of 
+ Na and Nb.
+ 2.We can see when the ratio of Ta and Tb Ta/Tb<2,the Na curve is higher than Nb curve;when Ta/Tb approaches 2,
+ the two curves are approaching to each other until they completely coinsided at Ta/Tb=2.As Ta/Tb keeps getting larger,
+ Nb curve is getting higher and higher than Na curve.
+ 3.When Ta/Tb=1,the slopeof Nb curve at t=0 is 0,and as Ta/Tb gets larger,there exists positive slope of Nb in a
+ period of t and this period gets longer as Ta/Tb gets larger.
