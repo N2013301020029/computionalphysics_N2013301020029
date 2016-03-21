@@ -75,3 +75,5 @@
     
 ![9](http://7xrn0b.com1.z0.glb.clouddn.com/t13.png)
 
+### Analyzing the pictures:
+ 1.
