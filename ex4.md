@@ -60,11 +60,18 @@
 #### We take a serie of values of Ta and see how the pictures change:
     we take Ta=10s,5s,1.2s,1.0s,1.2s,1.5s,3.0s separately,and the pictures are:
     ![1](http://7xrn0b.com1.z0.glb.clouddn.com/t10.png)
+    
     ![2](http://7xrn0b.com1.z0.glb.clouddn.com/t5.png)
+    
     ![3](http://7xrn0b.com1.z0.glb.clouddn.com/t25.png)
+    
     ![4](http://7xrn0b.com1.z0.glb.clouddn.com/t125.png)
+    
     ![6](http://7xrn0b.com1.z0.glb.clouddn.com/t1.png)
+    
     ![7](http://7xrn0b.com1.z0.glb.clouddn.com/t56.png)
+    
     ![8](http://7xrn0b.com1.z0.glb.clouddn.com/t23.png)
+    
     ![9](http://7xrn0b.com1.z0.glb.clouddn.com/t13.png)
 
