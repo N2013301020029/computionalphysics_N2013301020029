@@ -1,16 +1,16 @@
 # The 4th Homework:exercise 1.4
 ## Summury:
-  In this particle we will use python to edit a program to solve the 
+    In this particle we will use python to edit a program to solve the 
   following radioactive decay problem approximatelly:
   
   ![problem](http://7xrn0b.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-21%20%E4%B8%8B%E5%8D%883.16.23.png)
   
-  We will use a tool called 'matplotlib'which is designed for python to draw pictures.This will help 
+     We will use a tool called 'matplotlib'which is designed for python to draw pictures.This will help 
   us to analyse our problem intuitively.
 ## Text:
-  We will use Euler method to deal with this radioactive problem:
-  this method is very simple which told us that f(t+∆t)=f(t)+(f(t))/dt ∆t
-  According to the differencial equation given we can use Euler method to approximate Na and Nb little 
+    We will use Euler method to deal with this radioactive problem:
+    this method is very simple which told us that f(t+∆t)=f(t)+(f(t))/dt ∆t
+    According to the differencial equation given we can use Euler method to approximate Na and Nb little 
   by little.
 ### We write the following program:
   
@@ -78,12 +78,12 @@
 ![9](http://7xrn0b.com1.z0.glb.clouddn.com/t13.png)
 
 ### Analyzing the pictures:
-  1.From the pictures the curves pictured by Euler method is very well coinsided with the accurate sollution of 
- Na and Nb.
+  1.From the pictures the curves pictured by Euler method is very well coinsided with the accurate 
+  sollution of Na and Nb.
  
-  2.We can see when the ratio of Ta and Tb Ta/Tb<2,the Na curve is higher than Nb curve;when Ta/Tb approaches 2,
- the two curves are approaching to each other until they completely coinsided at Ta/Tb=2.As Ta/Tb keeps getting larger,
- Nb curve is getting higher and higher than Na curve.
+  2.We can see when the ratio of Ta and Tb Ta/Tb<2,the Na curve is higher than Nb curve;when Ta/Tb
+  approaches 2, the two curves are approaching to each other until they completely coinsided at 
+  Ta/Tb=2.As Ta/Tb keeps getting larger,Nb curve is getting higher and higher than Na curve.
  
-  3.When Ta/Tb=1,the slopeof Nb curve at t=0 is 0,and as Ta/Tb gets larger,there exists positive slope of Nb in a
- period of t and this period gets longer as Ta/Tb gets larger.
+  3.When Ta/Tb=1,the slopeof Nb curve at t=0 is 0,and as Ta/Tb gets larger,there exists positive
+  slope of Nb in a period of t and this period gets longer as Ta/Tb gets larger.
