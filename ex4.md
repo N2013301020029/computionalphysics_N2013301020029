@@ -1,7 +1,7 @@
 # The 4th Homework:exercise 1.4
 ## Summury:
     In this particle we will use python to edit a program to solve the 
-  following radioactive decay problem approximatelly:
+following radioactive decay problem approximatelly:
   
   ![problem](http://7xrn0b.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-21%20%E4%B8%8B%E5%8D%883.16.23.png)
   
