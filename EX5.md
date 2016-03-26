@@ -1,4 +1,4 @@
 # 第五次作业：课后题1.6
 ## 摘要：
   用欧拉方法解决如下问题：
-  ！[1]（http://7xrn0b.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-25%20%E4%B8%8B%E5%8D%882.03.30.png）
+  ![1](http://7xrn0b.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-25%20%E4%B8%8B%E5%8D%882.03.30.png)
