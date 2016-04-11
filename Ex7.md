@@ -32,4 +32,20 @@
 ![5](http://7xrn0b.com1.z0.glb.clouddn.com/Screenshot%20from%202016-04-10%2006:41:59.png)
 
 选择一些数值来看一下模拟的效果：
-Let It Go：<iframe height=498 width=510 src="http://player.youku.com/embed/XNjcyMDU4Njg0" frameborder=0 allowfullscreen></iframe>
+1、斜抛轨迹：
+![11](http://7xrn0b.com1.z0.glb.clouddn.com/a.png)
+
+2、若球碰到墙壁则以相反速度反弹：
+![22](http://7xrn0b.com1.z0.glb.clouddn.com/b.png)
+
+3、假设没有重力，将下旋转速设的很大，轨迹为：
+![33](http://7xrn0b.com1.z0.glb.clouddn.com/wuzhonglizao.png)
+
+看上去球沿该轨道一直运行下去，但实际上由于空气阻力的作用，每次运动的圈都会有所平移，较
+长时间后轨迹明显变粗：
+![44](http://7xrn0b.com1.z0.glb.clouddn.com/wuzhongliwan.png)
+
+4、在有重力的情况下，相同的初速度和转速，轨迹变为：
+![55](http://7xrn0b.com1.z0.glb.clouddn.com/youzhongli.png)
+
+以上vpython动画视觉效果略矬，仍待改进。
