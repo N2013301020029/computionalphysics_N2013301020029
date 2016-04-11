@@ -34,12 +34,15 @@
 选择一些数值来看一下模拟的效果：
 1、斜抛轨迹：
 ![11](http://7xrn0b.com1.z0.glb.clouddn.com/a.png)
+![222](http://7xrn0b.com1.z0.glb.clouddn.com/%E8%B7%91%E9%A2%98.gif)
 
 2、若球碰到墙壁则以相反速度反弹：
 ![22](http://7xrn0b.com1.z0.glb.clouddn.com/b.png)
+![111](http://7xrn0b.com1.z0.glb.clouddn.com/%E6%92%9E.gif)
 
 3、假设没有重力，将下旋转速设的很大，轨迹为：
 ![33](http://7xrn0b.com1.z0.glb.clouddn.com/wuzhonglizao.png)
+![444](http://7xrn0b.com1.z0.glb.clouddn.com/%E6%97%A0%E9%87%8D%E5%8A%9B.gif)
 
 看上去球沿该轨道一直运行下去，但实际上由于空气阻力的作用，每次运动的圈都会有所平移，较
 长时间后轨迹明显变粗：
@@ -47,5 +50,5 @@
 
 4、在有重力的情况下，相同的初速度和转速，轨迹变为：
 ![55](http://7xrn0b.com1.z0.glb.clouddn.com/youzhongli.png)
-
+![12](http://7xrn0b.com1.z0.glb.clouddn.com/%E6%9C%89%E9%87%8D%E5%8A%9B.gif)
 以上vpython动画视觉效果略矬，仍待改进。
