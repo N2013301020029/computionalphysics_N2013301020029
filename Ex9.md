@@ -51,13 +51,40 @@
 ## level 2:
 ## 一、微调受迫力的的振幅和频率，观察吸引子图像的变化
 首先对受迫力的振幅进行微调：
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+先把Fd逐渐减小，起初的图像变化不大，到Fd=1.5的时候出现明显变化，从这个点开始细微调节：
+Fd=1.155
+![a](http://7xrn0b.com1.z0.glb.clouddn.com/fd=1-155.png)
+Fd=1.152
+![x](http://7xrn0b.com1.z0.glb.clouddn.com/fd=1-152.png)
+Fd=1.151
+![c](http://7xrn0b.com1.z0.glb.clouddn.com/fd=1-151.png)
+Fd=1.1505
+![c](http://7xrn0b.com1.z0.glb.clouddn.com/fd=1-1505.png)
+Fd=1.1504
+![v](http://7xrn0b.com1.z0.glb.clouddn.com/fd=1-1504.png)
+Fd=1.1503
+![w](http://7xrn0b.com1.z0.glb.clouddn.com/fd=1-1504.png)
+Fd=1.15025
+![d](http://7xrn0b.com1.z0.glb.clouddn.com/fd=1-15025.png)
+Fd=1.15024
+![f](http://7xrn0b.com1.z0.glb.clouddn.com/fd=1-15024.png)
+Fd=1.15022
+![c](http://7xrn0b.com1.z0.glb.clouddn.com/fd=1-15022.png)
+Fd=1.1502
+![b](http://7xrn0b.com1.z0.glb.clouddn.com/fd=1-1502.png)
+![n]()
+![1]()
+![w]()
+![d]()
+![f]()
+![z]()
+![n]()
+![b]()
+![n]()
+![m]()
+![k]()
+![l]()
+![h]()
  
  
  
