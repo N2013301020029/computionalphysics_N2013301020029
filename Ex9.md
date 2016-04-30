@@ -78,13 +78,18 @@ Fd=1.1502
 有三个部分在微调范围内总是存在，即茄子部分的底部和头部以及整个图像的右边部分。
 
 下面将Fd逐渐增大：
-
-![n]()
-![1]()
-![w]()
-![d]()
-![f]()
-![z]()
+Fd=1.21
+![n](http://7xrn0b.com1.z0.glb.clouddn.com/fd=1-21.png)
+Fd=1.23
+![1](http://7xrn0b.com1.z0.glb.clouddn.com/fd=1-23.png)
+Fd=1.25
+![w](http://7xrn0b.com1.z0.glb.clouddn.com/fd=1-25.png)
+Fd=1.255
+![d](http://7xrn0b.com1.z0.glb.clouddn.com/fd=1-255.png)
+Fd=1.257
+![f](http://7xrn0b.com1.z0.glb.clouddn.com/fd=1-257.png)
+Fd=1.258
+![z](http://7xrn0b.com1.z0.glb.clouddn.com/fd=1-258.png)
 ![n]()
 ![b]()
 ![n]()
